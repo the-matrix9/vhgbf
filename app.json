@@ -1,0 +1,35 @@
+{
+    "name": "𝗦𝗔𝗧𝗬𝗔 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
+    "logo": "https://files.catbox.moe/f932t8.jpg",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/Rishuz/Slove",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "fill with the Pyrogram v2 session string",
+            "required": false
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "SUDO_USERS": {
+            "description": "don't Change this there /id",
+            "required": true,
+            "value": "5738579437"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd",
+            "required": true,
+            "value": "5738579437"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
