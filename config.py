@@ -9,17 +9,17 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "14050586")) #optional
 API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c") #optional
 
-MONGO_DB_NAME = "TelegramBot"
+MONGO_DB_NAME = "TelegrguamBot"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7432319742").split()))
-OWNER_ID = int(getenv("OWNER_ID", "7432319742"))
-MONGO_URL = getenv("MONGO_URL", "")
+OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://files.catbox.moe/svssj2.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER","-1002294781733")
 LOG_GROUP = getenv("LOG_GROUP","-1002294781733")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/Botminetech/USERBOT-GARIB")
+REPO_URL = getenv("REPO_URL", "https://github.com/")
 BRANCH = getenv("BRANCH", "main") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
