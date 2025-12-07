@@ -13,7 +13,7 @@ MONGO_DB_NAME = "TelegrguamBot"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7432319742").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8225647374:AAElsfwP7lj5Zr36iM9HptLkdMr64VBbHc4")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://files.catbox.moe/svssj2.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER","-1001992970818")
