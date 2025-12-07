@@ -10,8 +10,8 @@ import pymongo
 import random
 
 # Bot details
-CHANNEL_1_USERNAME = "BOTMINE_TECH"       # Updates Channel
-CHANNEL_2_USERNAME = "BOTMINE_SUPPORT"    # Support Channel
+CHANNEL_1_USERNAME = "rishucoder"       # Updates Channel
+CHANNEL_2_USERNAME = "Rishuteam"    # Support Channel
 ADMIN_ID = int(os.getenv("ADMIN_ID", "5738579437"))
 
 # Flask app for uptime check
