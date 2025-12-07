@@ -5,7 +5,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from UTTAM import app
 
 #--------------------------
-MUST_JOIN = "BOTMINE_TECH"  # your main join channel
+MUST_JOIN = "rishucoder"  # your main join channel
 #--------------------------
 
 # 🎴 Random image list
