@@ -12,7 +12,7 @@ import random
 # Bot details
 CHANNEL_1_USERNAME = "BOTMINE_TECH"       # Updates Channel
 CHANNEL_2_USERNAME = "BOTMINE_SUPPORT"    # Support Channel
-ADMIN_ID = int(os.getenv("ADMIN_ID", "7432319742"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "5738579437"))
 
 # Flask app for uptime check
 flask_app = Flask(__name__)
